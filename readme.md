@@ -1,4 +1,6 @@
-# Liste des formations
+# formation HTML, CSS, JS
+
+## Liste des formations suivies
 
 --- HTML - CSS ---
 
@@ -20,3 +22,10 @@
 - The Complete JavaScript Course 2022: From Zero to Expert!
 - JavaScript : la formation ULTIME
 - JavaScript Unit Testing - The Practical Guide
+
+## Comment profiter des informations de ce code ?
+
+- Le code est commenté
+- Les illutrations ci-dessous vous explique les points importants
+
+# Les balises "meta" importantes
