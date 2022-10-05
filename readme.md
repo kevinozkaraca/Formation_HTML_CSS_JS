@@ -28,4 +28,4 @@
 - Le code est commenté
 - Les illutrations ci-dessous vous explique les points importants
 
-# Les balises "meta" importantes
+### Les balises "meta" importantes
