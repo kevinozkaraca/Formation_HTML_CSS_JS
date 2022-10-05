@@ -27,8 +27,8 @@ Ce site : https://kevinozkaraca.github.io/Formation_HTML_CSS_JS/ est un site de 
 
 ## Comment profiter des informations de ce code ?
 
-- Le code est commenté
-- Les illutrations et articles ci-dessous vous explique les points importants
+- Lire les commentaire du code
+- Lire les articles ci-dessous
 
 ### L'utilité du HTML, CSS et Javascript ?
 
