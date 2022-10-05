@@ -97,6 +97,7 @@ et des feuilles de style en cascade (CSS).-->
       L'élément accepte les attributs "reversed" pour inversé l'ordre, "type" pour changer le type de numérotation et "start"
       pour indiquer par quel nombre commencer
         -->
+    <h2>CEci est le H2 pour le 0l</h2>
     <ol>
       <li>PERMIER ELEMENT DE LA LISTE</li>
       <li>DEUXIEME</li>
@@ -108,5 +109,43 @@ et des feuilles de style en cascade (CSS).-->
       <li>DEUXIEME ELEMENT DE LA LISTE INVERSEE</li>
       <li>TROISIEME</li>
     </ol>
+    <!--Les attribut qui chanque la forme de la puce ont : circle, disc, and square.-->
+    <h2>CEci est le H2 pour le ul</h2>
+    <ul type="disc">
+      <li>PERMIER ELEMENT DE LA LISTE</li>
+      <li>DEUXIEME</li>
+      <li>TROISIEME</li>
+    </ul>
+    <ul type="circle">
+      <li>PERMIER ELEMENT DE LA LISTE MODIFIEE</li>
+      <li>DEUXIEME ELEMENT DE LA LISTE INVERSEE</li>
+      <li>TROISIEME</li>
+    </ul>
+    <!--L'imbrication permet de mélangé les deux types de listes-->
+    <h2>CEci est le H2 pour le ul et ol imbriqué</h2>
+    <ul>
+      <li>Milk</li>
+      <ol>
+        <li>PERMIER ELEMENT DE LA LISTE</li>
+        <li>DEUXIEME</li>
+        <li>TROISIEME</li>
+      </ol>
+      <li>
+        Cheese
+        <ul>
+          <li>Blue cheese</li>
+          <li>Feta</li>
+        </ul>
+      </li>
+    </ul>
+    <!--La balise "img" est orphenile (elle ne s'utilise pas en paire) permet d'intégrer une image dans un document l'attribut 
+    "src" est obligatoire
+    "alt" est une description en cas de problème d'affichage. Il est préférable de gérer la taille en css.
+    "crossorigin" Indique que la récupération de l'image doit être effectuée avec une requête CORS. Les données provenant d'une image chargée via une requête CORS
+    "sync"/"async" L'image est décodée de façon synchrone ou asynchrone 
+    "title" donne des infos au passage de la souris
+    -->
+    <h2>Ceci est une image</h2>
+    <img src="./images/001.jpg" alt="image de code JavaScript" title="image du javascript" />
   </body>
 </html>

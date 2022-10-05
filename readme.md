@@ -1,6 +1,8 @@
 # formation HTML, CSS, JS
 
-## Liste des formations suivies
+Ce site : https://kevinozkaraca.github.io/Formation_HTML_CSS_JS/ est un site de formation à HTML, CSS, Javascript
+
+## Liste des formations suivies sur UDEMY pou réaliser ce site
 
 --- HTML - CSS ---
 
@@ -26,6 +28,8 @@
 ## Comment profiter des informations de ce code ?
 
 - Le code est commenté
-- Les illutrations ci-dessous vous explique les points importants
+- Les illutrations et articles ci-dessous vous explique les points importants
+
+### L'utilité du HTML, CSS et Javascript ?
 
 ### Les balises "meta" importantes
