@@ -50,3 +50,5 @@ La balise "code" est utilisée pour mettre en valeur des extraits de code au sei
 Elle conserve donc les tabulations, les espaces et les sauts de lignes présents dans le texte. De ce fait, elle indique aux robots d'indexation que le texte qu'elle encadre est un contenu pré-formaté.
 
 ### 🔴 Les balises "meta" importantes
+
+### 🔴 Les attributs universels
