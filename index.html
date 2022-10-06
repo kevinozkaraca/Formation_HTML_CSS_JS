@@ -55,28 +55,16 @@ et des feuilles de style en cascade (CSS).
     <meta charset="UTF-8" />
     <!-- la balise El X-UA-Compatible est automatiquement implémentée par VsCode, elle permet aux auteurs 
         de sites web de choisir la version d'Internet Explorer dans laquelle la page doit être rendue.-->
-    <meta
-      http-equiv="X-UA-Compatible"
-      content="IE=edge"
-    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <!-- Le viewport représente de manière schématique la partie visible d'une page web par un utilisateur ou
        la fenêtre active. La taille de cette fenêtre va bien évidemment varier en fonction de la taille de 
        l'écran de l'utilisateur et de l'appareil utilisé.
     -->
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- le title informe du titre qui apparaitra sur l'onglet -->
     <title>BALISE TITLE - titre de l'onglet</title>
-    <link
-      rel="stylesheet"
-      href="./styles/general.css"
-    />
-    <link
-      rel="stylesheet"
-      href="./styles/index.css"
-    />
+    <link rel="stylesheet" href="./styles/general.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
   </head>
   <!-- Le body est le corps de la page, la majorité du code y sera apparant -->
   <!--
@@ -164,13 +152,13 @@ et des feuilles de style en cascade (CSS).
       et <h6> est le moins important. Un élément de titre décrit brièvement le sujet de la section qu'il introduit.
       Il est important de les mettre en ordre dans la page 
     -->
-    <h1>TITRE H1 - PAGE HTML</h1>
+    <h1>TITRE H1 - PAGE HTML :</h1>
     <!--L'élément HTML <p> représente un paragraphe de texte. Les paragraphes sont généralement représentés 
       comme des blocs et séparés par un espace vertical, leur première ligne est également parfois indentée. 
       Les paragraphes sont des éléments blocs.
     -->
     <p>
-      PARAGRAPHE GENERER PAR LOREM*200 AVEC AJOUT D'ELEMENT
+      PARAGRAPHE (GENERER PAR LOREM*x) AVEC AJOUT D'ELEMENT
       <!--L'élément HTML <strong> indique que le texte a une importance particulière ou un certain sérieux 
         voire un caractère urgent. Cela se traduit généralement par un affichage en gras.
       -->
@@ -198,24 +186,20 @@ et des feuilles de style en cascade (CSS).
       L'élément accepte les attributs "reversed" pour inversé l'ordre, "type" pour changer le type de numérotation et "start"
       pour indiquer par quel nombre commencer
     -->
-    <h2>CEci est le H2 pour le ol</h2>
+    <h2>CEci est le H2 pour le ol :</h2>
     <ol>
       <li>PERMIER ELEMENT DE LA LISTE</li>
       <li>DEUXIEME</li>
       <li>TROISIEME</li>
     </ol>
     <!--Exemple de changement de liste modifiée-->
-    <ol
-      reversed
-      start="5"
-      type="A"
-    >
+    <ol reversed start="5" type="A">
       <li>PERMIER ELEMENT DE LA LISTE MODIFIEE</li>
       <li>DEUXIEME ELEMENT DE LA LISTE INVERSEE</li>
       <li>TROISIEME</li>
     </ol>
     <!--Les attribut qui chanque la forme de la puce ont : circle, disc, and square.-->
-    <h2>CEci est le H2 pour le ul</h2>
+    <h2>CEci est le H2 pour le ul :</h2>
     <ul type="disc">
       <li>PERMIER ELEMENT DE LA LISTE</li>
       <li>DEUXIEME</li>
@@ -227,7 +211,7 @@ et des feuilles de style en cascade (CSS).
       <li>TROISIEME</li>
     </ul>
     <!--L'imbrication permet de mélangé les deux types de listes-->
-    <h2>Ceci est le H2 pour le ul et ol imbriqué</h2>
+    <h2>Ceci est le H2 pour le ul et ol imbriqué :</h2>
     <ul>
       <li>Milk</li>
       <ol>
@@ -251,48 +235,37 @@ et des feuilles de style en cascade (CSS).
       "sync"/"async" L'image est décodée de façon synchrone ou asynchrone 
       "title" donne des infos au passage de la souris 
     -->
-    <h2>Ceci est une image</h2>
-    <img
-      src="./images/001.jpg"
-      alt="image de code JavaScript"
-      title="image du javascript"
-    />
+    <h2>Ceci est une image :</h2>
+    <img src="./images/001.jpg" alt="image de code JavaScript" title="image du javascript" />
     <h2>Ceci est un lien :</h2>
-    <a
-      target="_blank"
-      href="https://www.linkedin.com/in/kevin-%C3%B6zkaraca-66a256209/"
-    >
-      Lien de mon linkedin</a
-    >
+    <a target="_blank" href="https://www.linkedin.com/in/kevin-%C3%B6zkaraca-66a256209/"> Lien de mon linkedin</a>
     <h2>Ceci est une image lien (image cliquable) :</h2>
-    <a
-      target="_blank"
-      href="https://www.linkedin.com/in/kevin-%C3%B6zkaraca-66a256209/"
-    >
-      <img
-        src="./images/002.jpg"
-        alt="image de code JavaScript"
-        title="lien vers mon compte linkedin"
-      />
+    <a target="_blank" href="https://www.linkedin.com/in/kevin-%C3%B6zkaraca-66a256209/">
+      <img src="./images/002.jpg" alt="image de code JavaScript" title="lien vers mon compte linkedin" />
     </a>
     <!--L'élément HTML <a> (pour ancre ou anchor en anglais), avec son attribut href, crée un lien hypertexte vers 
       des pages web, des fichiers, des adresses e-mail, des emplacements se trouvant dans la même page, ou tout 
       ce qu'une URL peut adresser. "target="_blank"" permet d'ouvrir dans un autre onglet
     -->
     <div id="ancreHaut"></div>
+    <h2>les liens :</h2>
     <p>Il est possible de mettre dans des liens :</p>
     <ul>
       <li>
-        <a
-          href="https://www.linkedin.com/in/kevin-%C3%B6zkaraca-66a256209/"
-          target="_blank"
-          >Un site</a
-        >
+        <a href="https://www.linkedin.com/in/kevin-%C3%B6zkaraca-66a256209/" target="_blank">Un site</a>
       </li>
-      <li><a href="mailto:kevin.ozkaraca@gmail.com">Un mail</a></li>
-      <li><a href="./files/curriculumVitae.pdf">Un fichier</a></li>
-      <li><a href="tel:+00905304468117">Un numéro de téléphone</a></li>
-      <li><a href="#ancreBas">Une ancre (lien dans la meme page)</a></li>
+      <li>
+        <a target="_blank" href="mailto:kevin.ozkaraca@gmail.com">Un mail</a>
+      </li>
+      <li>
+        <a target="_blank" href="./files/curriculumVitae.pdf">Un fichier</a>
+      </li>
+      <li>
+        <a target="_blank" href="tel:+00905304468117">Un numéro de téléphone</a>
+      </li>
+      <li>
+        <a target="_blank" href="#ancreBas">Une ancre (lien dans la meme page)</a>
+      </li>
     </ul>
     <p>
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae corrupti voluptatum exercitationem,
@@ -565,6 +538,150 @@ et des feuilles de style en cascade (CSS).
       L'élément HTML <code> représente un court fragment de code machine. Par défaut, l'agent utilisateur utilise une
       police à chasse fixe (monospace) afin d'afficher le texte contenu dans cet élément.
     -->
+    <h2>Ceci est une balise code :</h2>
     <code> function quoi(){ console.log("Ceci est une balise code") } </code>
+    <h2>la balise br permet le saut de ligne :</h2>
+    <br />
+    <h2>Une video :</h2>
+    <video controls loop>
+      <source src="./files/basket.mp4" type="video/mp4" />
+
+      Download the
+      <a href="./files/basket.mp4">MP4</a>
+      video.
+    </video>
+    <h2>Une liste de descriptions :</h2>
+    <!--L'élément HTML <dl> représente une liste de descriptions sous la forme d'une liste de paires 
+      associant des termes (fournis par des éléments <dt>) et leurs descriptions ou définitions (fournies par des éléments <dd>). 
+      On utilisera par exemple cet élément pour implémenter un glossaire.
+    -->
+    <dl>
+      <dt>Firefox</dt>
+      <dd>
+        Un navigateur Web libre, open-source, multi-plateforme dévelopé par la Mozilla Corporation et des centaines de
+        volontaires.
+      </dd>
+    </dl>
+    <!--L'élément HTML <form> représente un formulaire, c'est-à-dire une section d'un document qui contient des contrôles 
+      interactifs permettant à un utilisateur de fournir des informations.
+    -->
+    <h2>Un formulaire :</h2>
+    <form>
+      <fieldset>
+        <legend>Personal Details</legend>
+        <p>
+          <label>
+            Salutation
+            <br />
+            <select name="salutation">
+              <option>--None--</option>
+              <option>Mr.</option>
+              <option>Ms.</option>
+              <option>Mrs.</option>
+              <option>Dr.</option>
+              <option>Prof.</option>
+            </select>
+          </label>
+        </p>
+
+        <p>
+          <label>First name: <input name="firstName" /></label>
+        </p>
+
+        <p>
+          <label>Last name: <input name="lastName" /></label>
+        </p>
+
+        <p>
+          Gender :
+          <label><input type="radio" name="gender" value="male" /> Male</label>
+          <label><input type="radio" name="gender" value="female" /> Female</label>
+        </p>
+        <p>
+          Gender :
+          <label><input type="checkbox" name="gender" value="male" /> Male</label>
+          <label><input type="checkbox" name="gender" value="female" /> Female</label>
+        </p>
+        <p>
+          <label>Email:<input type="email" name="email" /></label>
+        </p>
+
+        <p>
+          <label>Date of Birth:<input type="date" name="birthDate" /></label>
+        </p>
+
+        <p>
+          <label>
+            Address :
+            <br />
+            <textarea name="address" cols="30" rows="3"></textarea>
+          </label>
+        </p>
+
+        <p>
+          <button type="submit">Submit</button>
+        </p>
+      </fieldset>
+    </form>
+    <!--L'élément HTML <table> permet de représenter un tableau de données, c'est-à-dire 
+      des informations exprimées sur un tableau en deux dimensions.
+    -->
+    <h2>Un tableau (à modifier en CSS) :</h2>
+    <table>
+      <colgroup span="4" class="columns"></colgroup>
+      <tr>
+        <th>Pays</th>
+        <th>Capitales</th>
+        <th>Population</th>
+        <th>Langue</th>
+      </tr>
+      <tr>
+        <td>USA</td>
+        <td>Washington D.C.</td>
+        <td>309 millions</td>
+        <td>Anglais</td>
+      </tr>
+      <tr>
+        <td>Suède</td>
+        <td>Stockholm</td>
+        <td>9 millions</td>
+        <td>Suédois</td>
+      </tr>
+    </table>
+
+    <table>
+      <colgroup>
+        <col class="column1" />
+        <col class="columns2plus3" span="2" />
+      </colgroup>
+      <tr>
+        <th>Citron vert</th>
+        <th>Citron</th>
+        <th>Orange</th>
+      </tr>
+      <tr>
+        <td>Vert</td>
+        <td>Jaune</td>
+        <td>Orange</td>
+      </tr>
+    </table>
+    <table>
+      <caption>
+        Super légende
+      </caption>
+      <tr>
+        <td>Données géniales</td>
+      </tr>
+    </table>
+    <h2>Un audio :</h2>
+    <figure>
+      <figcaption>Ecouter l'audio</audio></figcaption>
+      <!--L'élément HTML <audio> est utilisé afin d'intégrer un contenu sonore dans un document. Il peut contenir une ou plusieurs sources 
+        audio représentées avec l'attribut src ou l'élément <source> : le navigateur choisira celle qui convient le mieux.
+      -->
+      <audio controls src="./files/audio.mp3">
+        <a href="./files/audio.mp3"> Download audio </a>
+      </audio>
+    </figure>
   </body>
 </html>
