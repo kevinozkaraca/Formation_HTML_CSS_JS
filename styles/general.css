@@ -10,7 +10,7 @@ body {
 nav {
   margin: 0;
   padding: 0;
-  min-width: 575px;
+
   font-family: 'lato';
   margin: 0;
   padding: 0;
@@ -39,8 +39,8 @@ nav a {
 nav div {
   display: block;
   text-decoration: none;
-  font-size: large;
-  font-size: 1.2em;
+  font-size: small;
+
   height: 50px;
   width: 100%;
 }
