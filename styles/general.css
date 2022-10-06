@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: black;
+  height: 50px;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  font-size: large;
+  width: 20%;
+  color: white;
+  height: 50px;
+}
+nav div {
+  display: block;
+  text-decoration: none;
+  font-size: large;
+  font-size: 1.2em;
+}
+nav div:hover {
+  background-color: rgb(111, 2, 2);
+}
