@@ -25,14 +25,9 @@ Ce site : https://kevinozkaraca.github.io/Formation_HTML_CSS_JS/ est un site de 
 - JavaScript : la formation ULTIME
 - JavaScript Unit Testing - The Practical Guide
 
-## Comment profiter des informations de ce code ?
+### 🔴 L'utilité du HTML, CSS et Javascript ?
 
-- Lire les commentaire du code
-- Lire les articles ci-dessous
-
-### L'utilité du HTML, CSS et Javascript ?
-
-### Les balises sémantiques :
+### 🔴 Les balises sémantiques :
 
 LES BALISES SEMENTIQUES
 
@@ -75,4 +70,4 @@ Lors de l'utilisation de citation dans le contenu, il est nécessaire d'encadrer
 La balise "code" est utilisée pour mettre en valeur des extraits de code au sein d'un texte. Les moteurs de recherche savent ainsi que le contenu encadré est relatif à des lignes de codes. D'autre part, la balise "pre" affiche un texte pré-formaté. C'est-à-dire qu'elle est utilisée pour reproduire un texte à l'identique du code dans lequel il a été tapé.
 Elle conserve donc les tabulations, les espaces et les sauts de lignes présents dans le texte. De ce fait, elle indique aux robots d'indexation que le texte qu'elle encadre est un contenu pré-formaté.
 
-### Les balises "meta" importantes
+### 🔴 Les balises "meta" importantes
