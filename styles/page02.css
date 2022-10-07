@@ -1,0 +1,57 @@
+/*  
+
+Le CSS est composer de selecteur, suivi d'un bloc de déclaration où se trouve des propriétés et des valeurs
+
+Il est possible d'ecrire le CSS dans une balise html "style" ou dans la la balise avec l'attribut "style" 
+ou dans un fichier externe
+
+*/
+
+/* 1. Les propriétés relatives aux textes */
+/* Installation d'une font : */
+
+@font-face {
+  font-family: 'oswald';
+
+  src: url('../fonts/Oswald.ttf') format('truetype');
+}
+
+body {
+  font-family: 'oswald';
+  font-size: large;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  justify-content: center;
+  vertical-align: text-bottom;
+  vertical-align: middle;
+  letter-spacing: 2px;
+  background-color: aquamarine;
+}
+h2 {
+  margin: 5px;
+  padding: 5px;
+}
+h3 {
+  margin: 3px;
+  padding: 3px;
+}
+p {
+  margin: 2px;
+  padding: 2px;
+}
+header :nth-child(4),
+:nth-child(6),
+:nth-child(8),
+:nth-child(10) {
+  background-color: rgb(231, 254, 255);
+  border: solid 1px black;
+}
+header :nth-child(4):hover {
+  background-color: rgb(231, 254, 255);
+  border: solid 3px black;
+  box-shadow: 10px 5px 5px rgb(28, 28, 28);
+  text-shadow: 5px 5px 5px;
+}

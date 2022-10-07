@@ -1,5 +1,7 @@
 @font-face {
   font-family: 'lato';
+  font-style: normal;
+  font-weight: normal;
   src: url('../fonts/Lato.ttf') format('truetype');
 }
 
@@ -26,6 +28,7 @@ nav {
 }
 
 nav a {
+  font-family: 'lato';
   display: block;
   text-decoration: none;
   font-size: large;
@@ -36,7 +39,7 @@ nav a {
 nav div {
   display: block;
   text-decoration: none;
-  font-size: small;
+
   height: 50px;
   width: 100%;
 }
