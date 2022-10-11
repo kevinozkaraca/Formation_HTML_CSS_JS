@@ -51,4 +51,6 @@ Elle conserve donc les tabulations, les espaces et les sauts de lignes présents
 
 ### 🔴 Les balises "meta" importantes
 
+### 🔴 La priorité dans les secteurs CSS
+
 ### 🔴 Les attributs universels
