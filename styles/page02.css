@@ -38,8 +38,7 @@ p {
   margin: 2px;
   padding: 2px;
 }
-header :nth-child(4),
-:nth-child(6) {
+header :nth-child(4) {
   background-color: rgb(231, 254, 255);
 }
 header :nth-child(4) {
@@ -57,7 +56,11 @@ header :nth-child(6) strong {
   left: 5px;
   bottom: 5px;
 }
-/* Header : style pour les liens */
+/* Article : style pour les liens */
+article {
+  background-color: antiquewhite;
+  margin-top: 20px;
+}
 article a {
   text-decoration: none;
   color: brown;
@@ -70,4 +73,25 @@ article a:visited {
 article a:hover {
   color: #5be6ff;
   text-decoration: underline wavy #3f9619;
+}
+/* Aside : centrer un élément */
+aside {
+  background-color: aquamarine;
+}
+aside p {
+  width: 70%;
+  margin: auto;
+  padding: auto;
+}
+/* Footer */
+footer div {
+  width: 150px;
+  margin: auto;
+  padding: auto;
+}
+footer button {
+  padding: 10px;
+  font-size: larger;
+  cursor: pointer;
+  margin: 5px;
 }
