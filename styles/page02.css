@@ -118,18 +118,21 @@ footer button {
 }
 /* Box-sizing */
 .containerBox {
-  display: flex;
+  width: 50%;
+  background-color: black;
 }
 .contentBox {
-  width: 45%;
+  width: 100%;
   height: 100px;
+  padding: 10px;
   background-color: aquamarine;
   box-sizing: content-box;
   border: 5px solid red;
 }
 .borderBox {
-  width: 45%;
+  width: 100%;
   height: 100px;
+  padding: 10px;
   background-color: aquamarine;
   box-sizing: border-box;
   border: 5px solid red;
