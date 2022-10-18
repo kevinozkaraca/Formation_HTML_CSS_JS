@@ -2,6 +2,16 @@
 
 Ce site : https://kevinozkaraca.github.io/Formation_HTML_CSS_JS/ est un site de formation à HTML, CSS, Javascript
 
+La page 1 est une page HTML avec des commentaires :
+
+<p align="center">
+<img 
+class="IMGlink"
+src="images/page1.jpg"
+width= 100%
+        />
+</p>
+
 ## Articles sur les sujets importants :
 
 ### 🔴 L'utilité du HTML, CSS et Javascript ?
