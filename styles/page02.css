@@ -139,3 +139,19 @@ footer button {
   border: 5px solid red;
   margin: 15px;
 }
+/* flex-box */
+.containerFlexBox {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border: coral solid 5px;
+}
+.FlexBoxItem {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  background-color: blue;
+  margin: 5px;
+  color: aliceblue;
+}
