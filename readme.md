@@ -56,3 +56,13 @@ Elle conserve donc les tabulations, les espaces et les sauts de lignes présents
 ### 🔴 Les attributs universels
 
 ### 🔴 Le reset en CSS
+
+### 🔴 Le flexbox
+
+<p align="center">
+<img 
+class="IMGlink"
+src="images/css-flexbox.png"
+width= 100%
+        />
+</p>
