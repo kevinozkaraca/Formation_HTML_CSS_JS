@@ -2,12 +2,24 @@
 
 Ce site : https://kevinozkaraca.github.io/Formation_HTML_CSS_JS/ est un site de formation à HTML, CSS, Javascript
 
-La page 1 est une page HTML avec des commentaires :
+## Présentation :
+
+- La page 1 est une page HTML commentée :
 
 <p align="center">
 <img 
 class="IMGlink"
 src="images/page1.jpg"
+width= 100%
+        />
+</p>
+
+- La page 2 est une page HTML/CSS colorée :
+
+<p align="center">
+<img 
+class="IMGlink"
+src="images/page2.jpg"
 width= 100%
         />
 </p>
