@@ -195,6 +195,10 @@ footer button {
   background-color: black;
   grid-template-columns: 10% 45% 35%;
   grid-template-rows: 500px;
+  margin: auto;
+  padding: auto;
+  align-items: center;
+  justify-content: center;
 }
 .containerGrid12 {
   background-color: rgb(67, 67, 67);
@@ -228,7 +232,7 @@ footer button {
 .GridItem12e {
   width: 100%;
   height: 5%;
-  background-color: #6aff2a;
+  background-color: #fff42a;
 }
 .GridItem12f {
   width: 100%;
@@ -259,7 +263,7 @@ footer button {
 .GridItem22e {
   width: 100%;
   height: 15%;
-  background-color: #6aff2a;
+  background-color: #d1ff2a;
 }
 .GridItem22f {
   width: 100%;
@@ -289,7 +293,7 @@ footer button {
 .GridItem32e {
   width: 100%;
   height: 15%;
-  background-color: #6aff2a;
+  background-color: #959719;
 }
 .GridItem32f {
   width: 100%;
