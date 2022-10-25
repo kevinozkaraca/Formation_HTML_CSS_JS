@@ -2,9 +2,9 @@
   font-family: 'oswald';
   src: url('../fonts/Oswald.ttf') format('truetype');
 }
-
+/* La font lato est dans le css général*/
 body {
-  font-family: 'oswald';
+  font-family: 'lato';
 }
 
 h1 {
@@ -15,4 +15,7 @@ h1 {
   vertical-align: middle;
   letter-spacing: 2px;
   background-color: rgb(234, 234, 37);
+}
+img {
+  width: 80%;
 }
