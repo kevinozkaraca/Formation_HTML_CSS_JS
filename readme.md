@@ -24,6 +24,16 @@ width= 100%
         />
 </p>
 
+- La page 3 est une page Javascript en console :
+
+<p align="center">
+<img 
+class="IMGlink"
+src="images/page3.jpg"
+width= 100%
+        />
+</p>
+
 ## Articles sur les sujets importants :
 
 ### 🔴 L'utilité du HTML, CSS et Javascript ?
@@ -88,3 +98,5 @@ src="images/css-flexbox.png"
 width= 100%
         />
 </p>
+
+### 🔴 La difference entre var, const et let

@@ -212,17 +212,17 @@ footer button {
 .GridItem12a {
   width: 100%;
   height: 50%;
-  background-color: #3f9619;
+  background-color: #4bd0b7;
 }
 .GridItem12b {
   width: 100%;
   height: 5%;
-  background-color: #4cb51f;
+  background-color: #290660;
 }
 .GridItem12c {
   width: 100%;
   height: 15%;
-  background-color: #57cf23;
+  background-color: #ed24ea;
 }
 .GridItem12d {
   width: 100%;
@@ -237,7 +237,7 @@ footer button {
 .GridItem12f {
   width: 100%;
   height: 15%;
-  background-color: #6aff2a;
+  background-color: #2ab1ff;
 }
 
 .GridItem22a {
@@ -248,12 +248,12 @@ footer button {
 .GridItem22b {
   width: 100%;
   height: 25%;
-  background-color: #4cb51f;
+  background-color: #ff2a2a;
 }
 .GridItem22c {
   width: 100%;
   height: 10%;
-  background-color: #57cf23;
+  background-color: #797979;
 }
 .GridItem22d {
   width: 100%;
@@ -268,12 +268,12 @@ footer button {
 .GridItem22f {
   width: 100%;
   height: 20%;
-  background-color: #6aff2a;
+  background-color: #041070;
 }
 .GridItem32a {
   width: 100%;
   height: 35%;
-  background-color: #3f9619;
+  background-color: #c6c6c6;
 }
 .GridItem32b {
   width: 100%;
@@ -288,15 +288,21 @@ footer button {
 .GridItem32d {
   width: 100%;
   height: 5%;
-  background-color: #5bda25;
+  background-color: #288700;
 }
 .GridItem32e {
   width: 100%;
   height: 15%;
-  background-color: #959719;
+  background-color: #dee146;
 }
 .GridItem32f {
   width: 100%;
   height: 30%;
-  background-color: #6aff2a;
+  background-color: #0096c4;
 }
+/* 
+
+il est possible de déplacer les éléments de la grille en utilisant : 
+grid-columen et grid-row et en diquant par x/x sa place 
+
+*/

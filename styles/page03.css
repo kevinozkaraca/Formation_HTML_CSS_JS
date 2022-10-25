@@ -3,6 +3,10 @@
   src: url('../fonts/Oswald.ttf') format('truetype');
 }
 
+body {
+  font-family: 'oswald';
+}
+
 h1 {
   margin: 0;
   padding: 0;
@@ -10,5 +14,5 @@ h1 {
   justify-content: center;
   vertical-align: middle;
   letter-spacing: 2px;
-  background-color: rgb(255, 162, 0);
+  background-color: rgb(234, 234, 37);
 }

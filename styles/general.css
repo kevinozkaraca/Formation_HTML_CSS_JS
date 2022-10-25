@@ -4,7 +4,9 @@
   font-weight: normal;
   src: url('../fonts/Lato.ttf') format('truetype');
 }
-
+h1 {
+  height: 50px;
+}
 body {
   margin: 0;
   padding: 0;
