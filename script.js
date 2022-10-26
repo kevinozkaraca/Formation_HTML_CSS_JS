@@ -155,5 +155,25 @@ console.log(++maVariable10);
 console.log('--101');
 console.log(--maVariable10);
 /*
-            ---comparaison---
+            ---LES CONDITIONS---
 */
+let maCondition1 = true;
+let maCondition2 = 4;
+let maCondition3 = 2;
+console.log('Condition valable ? : ');
+if (maCondition1 == true) {
+  console.log("It's true");
+}
+// si ma condition n'est pas plus petit que 3
+// < > <= >= == ===
+if (!maCondition2 < 3) {
+  console.log("It's true");
+}
+if (!maCondition2 < 3 && maCondition3 === 2) {
+  console.log("It's true");
+}
+if (!maCondition2 < 3 || maCondition3 === 2) {
+  console.log("It's true");
+}
+
+// Les maths avant la comparaison
