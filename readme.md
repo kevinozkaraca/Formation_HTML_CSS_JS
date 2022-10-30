@@ -101,6 +101,8 @@ width= 100%
 
 ### 🔴 La difference entre var, const et let
 
+### 🔴 Le mode strict
+
 ## ⭕️ Revoir les formulaires en HTML
 
 ## ⭕️ Revoir les animations en CSS
