@@ -317,3 +317,28 @@ console.log(yTest); // 3
 // valeurs par défauts
 const [p = 2, q = 6, r = 7] = [8, 9];
 console.log(p, q, r);
+
+//spread operator ...
+const tableauAAjouter = [10, 20, 30];
+const spreadPratique = [3, 2, 8, ...tableauAAjouter];
+// sans les ... c'est un tableau dans un tableau
+const tableauDansTableau = [3, 2, 8, tableauAAjouter];
+console.log(spreadPratique);
+console.log(tableauDansTableau);
+// rest operator
+const [aa, bb, cc, ...reste] = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+console.log(reste);
+// dans une fonction met dans un tableau
+function mettreDansUnTableau(...argument11) {
+  console.log(argument11);
+}
+mettreDansUnTableau(11, 22, 33, 44, 55);
+// une partie dans un tableau
+function mettreDansUnTableau1(aaa, bbb, ...argument11) {
+  console.log(aaa, bbb, argument11);
+}
+mettreDansUnTableau1(11, 22, 33, 44, 55, 222);
+
+/*
+            ---LES FONCTIONS RELATIVES AUX TABLEAUX ---
+*/
