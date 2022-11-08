@@ -342,3 +342,20 @@ mettreDansUnTableau1(11, 22, 33, 44, 55, 222);
 /*
             ---LES FONCTIONS RELATIVES AUX TABLEAUX ---
 */
+let tableauPourFonctions = [18, 50, 62, 3, 548, 625, 69523];
+let tableau2DPourFonctions = [18, 50, 62, [3, 548, 625, 69523], 548, 625, 69523];
+
+tableauPourFonctions.push(52);
+console.log(tableauPourFonctions); // 52 est ajouté
+tableauPourFonctions.pop(); // supprime le dernier element
+console.log(tableauPourFonctions);
+console.log(tableauPourFonctions.indexOf(50)); //1
+console.log(tableauPourFonctions.includes(50)); // est ce que l'élément est présent
+console.log(tableauPourFonctions.join("aaa")); // join les éléments du tableau avec un aaa
+console.log(tableauPourFonctions.slice(2)); // découpe le tableau à partir de l'index 2
+console.log(tableauPourFonctions.slice(2, 4)); // déoupe le tableau a partir de 2 sans le 4 et sa suite
+console.log(tableauPourFonctions.slice(-2)); // les deux derniers
+console.log(tableauPourFonctions.reverse()); // retourne le sens du tableau
+console.log(tableauPourFonctions.concat(tableau2DPourFonctions)); // concaténation des tableaux
+let resultatIdentiqueQueConcat = [...tableauPourFonctions, ...tableau2DPourFonctions];
+console.log(resultatIdentiqueQueConcat);
