@@ -357,5 +357,28 @@ console.log(tableauPourFonctions.slice(2, 4)); // déoupe le tableau a partir de
 console.log(tableauPourFonctions.slice(-2)); // les deux derniers
 console.log(tableauPourFonctions.reverse()); // retourne le sens du tableau
 console.log(tableauPourFonctions.concat(tableau2DPourFonctions)); // concaténation des tableaux
-let resultatIdentiqueQueConcat = [...tableauPourFonctions, ...tableau2DPourFonctions];
+let resultatIdentiqueQueConcat = [...tableauPourFonctions, ...tableau2DPourFonctions]; // concaténation des tableaux comme le précédent
 console.log(resultatIdentiqueQueConcat);
+// La fonction map() permet de refaire un tableau en modifiant ses éléments
+// 1er méthode
+const sweetArray0 = [2, 3, 4, 5, 35];
+const sweeterArray0 = sweetArray0.map((sweetItem0) => {
+  return sweetItem0 * 2;
+});
+console.log(sweeterArray0);
+// 2eme méthode
+// Fonction
+const makeSweeter = (sweetItem1) => sweetItem1 * 2;
+const sweetArray1 = [2, 3, 4, 5, 35];
+const sweeterArray1 = sweetArray1.map(makeSweeter);
+console.log(sweeterArray1);
+// Méthode filter (filtre les mots de plus de 6 lettres)
+const words = ["spray", "limit", "elite", "exuberant", "destruction", "present"];
+const result = words.filter((word) => word.length > 6);
+console.log(result);
+// Fonction reduce
+let array11 = [11, 12, 13, 14];
+let sum = array11.reduce((aaa, bbb) => aaa + bbb);
+console.log(sum);
+// identique à réduce
+console.log(11 + 12 + 13 + 14);
