@@ -548,8 +548,3 @@ console.log(date.getDay());
 console.log(date.getHours());
 console.log(date.getMinutes());
 console.log(date.getSeconds());
-/*
-            --- Modifier le DOM ---
-*/
-// variable = document.selecteur(...)
-// variable.transformation
