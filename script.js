@@ -360,14 +360,14 @@ console.log(tableauPourFonctions.concat(tableau2DPourFonctions)); // concaténat
 let resultatIdentiqueQueConcat = [...tableauPourFonctions, ...tableau2DPourFonctions]; // concaténation des tableaux comme le précédent
 console.log(resultatIdentiqueQueConcat);
 // La fonction map() permet de refaire un tableau en modifiant ses éléments
-// 1er méthode
+// 1er méthode map()
 const sweetArray0 = [2, 3, 4, 5, 35];
 const sweeterArray0 = sweetArray0.map((sweetItem0) => {
   return sweetItem0 * 2;
 });
 console.log(sweeterArray0);
-// 2eme méthode
-// Fonction
+// 2eme méthode map()
+// Fonction + tableau
 const makeSweeter = (sweetItem1) => sweetItem1 * 2;
 const sweetArray1 = [2, 3, 4, 5, 35];
 const sweeterArray1 = sweetArray1.map(makeSweeter);
@@ -378,7 +378,52 @@ const result = words.filter((word) => word.length > 6);
 console.log(result);
 // Fonction reduce
 let array11 = [11, 12, 13, 14];
+// prendre chaque élément aaa bbb et les additionner
 let sum = array11.reduce((aaa, bbb) => aaa + bbb);
 console.log(sum);
 // identique à réduce
 console.log(11 + 12 + 13 + 14);
+// fonction find() retourne le premier élement trouvé
+const array10 = [5, 12, 8, 130, 44];
+// findIndex revoie l'index pas l'élément
+const found = array10.find((element) => element > 10);
+console.log(found);
+// Fonction some() Retourne true si un des éléments du tableau est validé par la fonction de test.
+function isBig(val) {
+  if (val >= 10) {
+    return true;
+  }
+  return false;
+}
+var tab1 = [10, 15, 9, 25, 0, 50];
+var tab2 = [8, Math.PI, 3, 9];
+console.log(tab1.some(isBig)); /* Retourne true */
+console.log(tab2.some(isBig)); /* Retourne false */
+// Every() informe si tous les elements ont la condition demande
+const isBelowThreshold = (currentValue) => currentValue < 40;
+const array1 = [1, 30, 39, 29, 10, 13];
+console.log(array1.every(isBelowThreshold));
+// Flat() ecrase un tableau a multi dimension
+testDeFlat = tableau2DPourFonctions.flat();
+console.log(testDeFlat);
+// sort() tri le tableau par ordre alphabetique ou numérique
+// 40 est plus grand que 300 ??
+tableauSort = [12, 9, 50, 60, 1, 20, 300, 40, 50, 80, 7, 21, 321, 21];
+tableauSort.sort();
+console.log(tableauSort);
+/*
+            ---LES OBJETS - DICTIONNAIRE ---
+*/
+let maVoiture1 = new Object();
+maVoiture1.fabricant = "Ford";
+maVoiture1.modele = "Mustang";
+maVoiture1.annee = 1969;
+// identique
+let maVoiture2 = {
+  fabricant: "Ford",
+  modele: "Mustang",
+  annee: 1969,
+};
+
+console.log(maVoiture1);
+console.log(maVoiture2);
