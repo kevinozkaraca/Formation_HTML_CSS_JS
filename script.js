@@ -424,6 +424,41 @@ let maVoiture2 = {
   modele: "Mustang",
   annee: 1969,
 };
-
+// resultat identique
 console.log(maVoiture1);
 console.log(maVoiture2);
+// Ajouter dans l'object
+maVoiture1["compte"] = "@moncompte";
+console.log(maVoiture1);
+//parcourir l'objet
+console.log(maVoiture1.compte);
+// Info : Il est pôssible de mettre des fonctions dans l'objet
+/*
+            --- Les sets ---
+*/
+//Un objet Set permet de stocker un ensemble de valeurs uniques de n'importe quel type, qu'il s'agisse de valeurs primitives ou d'objets.
+const monSet = new Set();
+monSet.add(1); // { 1 }
+monSet.add(5); // { 1, 5 }
+monSet.add(5); // { 1, 5 }
+monSet.add("du texte"); // { 1, 5, 'du texte' }
+console.log(monSet);
+const o = { a: 1, b: 2 };
+monSet.add(o);
+console.log(monSet);
+monSet.add({ a: 1, b: 2 });
+console.log(monSet);
+/*
+            --- Les maps ---
+*/
+// La méthode map() crée un nouveau tableau avec les résultats de l'appel d'une fonction fournie sur chaque élément du tableau appelant.
+const array125 = [1, 4, 9, 16];
+const map1 = array125.map((x) => x * 2);
+console.log(map1);
+/*
+            --- Les fonctions sur les chaines de caractères ---
+*/
+let chaineDeCara = "hdklfhdsjkfgdjkmsqghouidqmshbvlkxwcbvkjuzeatgeiudhbvcjklhdbsqgjkfhsdqkljhflkqjsdhgfo";
+// les chaines de caractère peuvent se travailler comme un tableau :
+let bouDeChaine = chaineDeCara[2];
+console.log(bouDeChaine);
