@@ -30,3 +30,7 @@ pre {
   color: azure;
   border: solid red 2px;
 }
+#cart__items {
+  background-color: aquamarine;
+  color: brown;
+}

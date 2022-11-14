@@ -34,7 +34,59 @@ function button1function() {
 }
 // fonction ajoute du contenu
 function button2function() {
-  console.log("kdhflkdh");
+  if (counterButton1 == 0) {
+    //Creation des elements utiles
+    const baliseArticle = document.createElement("article");
+    const creationDeDiv1 = document.createElement("div");
+    const creationDeDiv2 = document.createElement("div");
+    const creationDeDiv3 = document.createElement("div");
+    const creationDeDiv4 = document.createElement("div");
+    const creationDeDiv5 = document.createElement("div");
+    const creationDeDiv6 = document.createElement("div");
+    const IMGproduit = document.createElement("img");
+    const nomDuProduit = document.createElement("h2");
+    const paraCouleur = document.createElement("p");
+    const paraPrix = document.createElement("p");
+    const paraQuantite = document.createElement("p");
+    const inputQuantite = document.createElement("input");
+    const paraSUp = document.createElement("p");
+    const ciblageDuContenu = document.querySelector("#cart__items");
+    // Ciblage
+    ciblageDuContenu.appendChild(baliseArticle);
+    baliseArticle.setAttribute("class", "cart__item");
+    // div 1
+    baliseArticle.appendChild(creationDeDiv1);
+    creationDeDiv1.setAttribute("class", "cart__item__img");
+    creationDeDiv1.appendChild(IMGproduit);
+    // div 2
+    baliseArticle.appendChild(creationDeDiv2);
+    creationDeDiv2.setAttribute("class", "cart__item__content");
+    // div 3
+    creationDeDiv2.appendChild(creationDeDiv3);
+    creationDeDiv3.setAttribute("class", "cart__item__content__description");
+    creationDeDiv3.appendChild(nomDuProduit);
+    // div 4
+    creationDeDiv2.appendChild(creationDeDiv4);
+    creationDeDiv4.setAttribute("class", "cart__item__content__settings");
+    // div 5
+    creationDeDiv4.appendChild(creationDeDiv5);
+    creationDeDiv5.setAttribute("class", "cart__item__content__settings__quantity");
+    creationDeDiv5.appendChild(paraQuantite);
+    paraQuantite.innerText = "Quantité : ";
+    creationDeDiv5.appendChild(inputQuantite);
+    inputQuantite.setAttribute("type", "number");
+    inputQuantite.setAttribute("class", "itemQuantity");
+    inputQuantite.setAttribute("name", "itemQuantity");
+    inputQuantite.setAttribute("min", "1");
+    inputQuantite.setAttribute("max", "100");
+    // div 6
+    creationDeDiv4.appendChild(creationDeDiv6);
+    creationDeDiv6.setAttribute("class", "cart__item__content__settings__delete");
+    creationDeDiv6.appendChild(paraSUp);
+    paraSUp.setAttribute("class", "deleteItem");
+    paraSUp.innerText = "Supprimer";
+    return (counterButton1 = 1);
+  }
 }
 function button3function() {
   console.log("kdhflkdh");
