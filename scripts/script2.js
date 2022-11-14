@@ -18,10 +18,21 @@ button3.addEventListener("click", button3function);
 button4.addEventListener("click", button1function);
 button5.addEventListener("click", button1function);
 
-// fonction du
+// variable
+let counterButton1 = 0;
+
+// fonction ajoute une classe et l'enleve
 function button1function() {
-  console.log("kdhflkdh");
+  if (counterButton1 == 0) {
+    button1.classList.add("selectButton1");
+    return (counterButton1 = 1);
+  }
+  if (counterButton1 == 1) {
+    button1.classList.remove("selectButton1");
+    return (counterButton1 = 0);
+  }
 }
+// fonction ajoute du contenu
 function button2function() {
   console.log("kdhflkdh");
 }

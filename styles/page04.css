@@ -25,3 +25,8 @@ pre {
   font-size: 0.7rem;
   margin: auto;
 }
+.selectButton1 {
+  background-color: black;
+  color: azure;
+  border: solid red 2px;
+}
