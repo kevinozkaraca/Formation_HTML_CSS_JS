@@ -542,9 +542,34 @@ const date = new Date();
 console.log(date);
 console.log(new Date(2035, 10, 19, 15, 23, 5)); //resultat :  nov  13 2037 15 :23 :05
 console.log(date.getYear());
-console.log(date.getMonth());
+console.log(date.getMonth() + 1); // le mois est indiqué dans un index ? Oui Oui
 console.log(date.getDate());
 console.log(date.getDay());
 console.log(date.getHours());
 console.log(date.getMinutes());
 console.log(date.getSeconds());
+/*
+            --- la temporisations ---
+*/
+
+// setTimeout
+
+setTimeout(() => console.log("j'arrive dans 3 secondes"), 3000);
+// sera executé avant
+console.log("J'arrive avant le 'j'arrive dans 3 seocndes'");
+
+// setInterval
+
+const delay = 2;
+const limit = 2;
+let i22 = 1;
+
+console.log("START!");
+const limitedInterval = setInterval(() => {
+  console.log(`message ${i22}, appeared after ${delay * i22++} seconds`);
+
+  if (i22 > limit) {
+    clearInterval(limitedInterval);
+    console.log("interval cleared!");
+  }
+}, delay * 1000);

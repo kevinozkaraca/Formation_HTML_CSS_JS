@@ -32,7 +32,7 @@ function button1function() {
     return (counterButton1 = 0);
   }
 }
-// fonction ajoute du contenu
+// fonction ajout et modification du contenu
 function button2function() {
   if (counterButton1 == 0) {
     //Creation des elements utiles
