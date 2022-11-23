@@ -35,7 +35,6 @@ function button1function() {
 // fonction ajout et modification du contenu
 function button2function() {
   if (counterButton1 == 0) {
-    //Creation des elements utiles
     const baliseArticle = document.createElement("article");
     const creationDeDiv1 = document.createElement("div");
     const creationDeDiv2 = document.createElement("div");
@@ -51,6 +50,7 @@ function button2function() {
     const inputQuantite = document.createElement("input");
     const paraSUp = document.createElement("p");
     const ciblageDuContenu = document.querySelector("#cart__items");
+    document.delet;
     // Ciblage
     ciblageDuContenu.appendChild(baliseArticle);
     baliseArticle.setAttribute("class", "cart__item");
@@ -88,11 +88,14 @@ function button2function() {
     return (counterButton1 = 1);
   }
 }
+// supprime un élément
 function button3function() {
-  console.log("kdhflkdh");
+  document.querySelector("li").remove();
 }
+// cible un élément
 function button4function() {
-  console.log("kdhflkdh");
+  console.log("Information du le boutton 1");
+  console.log(button1.getBoundingClientRect());
 }
 function button5function() {
   console.log("kdhflkdh");
