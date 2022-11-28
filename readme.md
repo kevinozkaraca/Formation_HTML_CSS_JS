@@ -34,6 +34,15 @@ width= 100%
         />
 </p>
 
+- La page 4 est une page dynamique :
+
+<p align="center">
+<img 
+class="IMGlink"
+src="images/page4.jpg"
+width= 100%
+        />
+</p>
 ## Articles sur les sujets importants :
 
 ### 🔴 L'utilité du HTML, CSS et Javascript ?
@@ -102,6 +111,8 @@ width= 100%
 ### 🔴 La difference entre var, const et let
 
 ### 🔴 Le mode strict
+
+### 🔴 Les principaux eventlistener
 
 ## ⭕️ Revoir les formulaires en HTML
 

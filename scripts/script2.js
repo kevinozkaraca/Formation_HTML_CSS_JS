@@ -11,12 +11,12 @@ let button3 = document.getElementById("button3");
 let button4 = document.getElementById("button4");
 let button5 = document.getElementById("button5");
 
-// Evenement
+// Evenement (il est possible de removeEventListener)
 button1.addEventListener("click", button1function);
 button2.addEventListener("click", button2function);
 button3.addEventListener("click", button3function);
-button4.addEventListener("click", button1function);
-button5.addEventListener("click", button1function);
+button4.addEventListener("click", button4function);
+button5.addEventListener("click", button5function);
 
 // variable
 let counterButton1 = 0;
@@ -94,9 +94,13 @@ function button3function() {
 }
 // cible un élément
 function button4function() {
-  console.log("Information du le boutton 1");
-  console.log(button1.getBoundingClientRect());
+  console.log("Information du le boutton 1....");
+  console.log(button4.getBoundingClientRect());
 }
-function button5function() {
-  console.log("kdhflkdh");
+function button5function(e) {
+  console.log(e.target);
 }
+// Affiche le scroll
+window.addEventListener("scroll", function () {
+  console.log(window.scrollY);
+});
