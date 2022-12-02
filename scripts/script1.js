@@ -226,6 +226,10 @@ switch (expr) {
   default:
     console.log(`Sorry, we are out of ${expr}.`);
 }
+// les conditions ternaaires
+let cinq = 5;
+// si cinq est plus grand que 3 alors console  ':' sinon
+cinq > 3 ? console.log("Oui cinq est plus grand que trois") : console.log("CECI NE SERA PAS EN CONSOLE");
 /*
             ---LA FONCTION ---
 */
