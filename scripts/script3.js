@@ -1,6 +1,7 @@
 "use strict";
-
-// POO
+/*
+            --- Les objets ---
+*/
 class Vehicule {
   constructor(marque, modele, annee, nbRoue, nbPorte) {
     this.marque = marque;
@@ -47,3 +48,32 @@ Personne.prototype.calculAge = function () {
 Keke.calculAge();
 console.log(Keke.__proto__ === Personne.prototype); // true
 console.log(Personne.prototype.isPrototypeOf(Keke)); // true
+
+/*
+            --- Les closures ---
+*/
+// Affichage des compteurs sur la page
+let bouttons = document.getElementsByClassName("classButtonsFlex");
+let compteurs = document.getElementsByClassName("Counters");
+
+function compteur() {
+  var i = 0;
+  // retourne une fonction anonyme
+  return function () {
+    return i++;
+  };
+}
+
+// Mise dans une vairable pour utilisé le return
+let monCompteur0 = compteur();
+let monCompteur1 = compteur();
+let monCompteur2 = compteur();
+let monCompteur3 = compteur();
+
+// Application de la closure sur chaque bouton
+for (let y = 0; y < 4; y++) {
+  bouttons[y].addEventListener("click", function () {
+    console.log(monCompteur0);
+    compteurs[y].innerText = `${mesCompteurs[y]()}`;
+  });
+}

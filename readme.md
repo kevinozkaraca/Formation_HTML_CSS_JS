@@ -114,6 +114,10 @@ width= 100%
 
 ### 🔴 Les principaux eventlistener
 
+### 🔴 L'interet des closures
+
+### 🔴 Quand utiliser des class ?
+
 ## ⭕️ Revoir les formulaires en HTML
 
 ## ⭕️ Revoir les animations en CSS
