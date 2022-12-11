@@ -69,11 +69,10 @@ let monCompteur0 = compteur();
 let monCompteur1 = compteur();
 let monCompteur2 = compteur();
 let monCompteur3 = compteur();
-
+let mesCompteurs = [monCompteur0, monCompteur1, monCompteur2, monCompteur3];
 // Application de la closure sur chaque bouton
 for (let y = 0; y < 4; y++) {
   bouttons[y].addEventListener("click", function () {
-    console.log(monCompteur0);
     compteurs[y].innerText = `${mesCompteurs[y]()}`;
   });
 }
